@@ -1,0 +1,18 @@
+meta {
+  name: Logout
+  type: http
+  seq: 8
+}
+
+post {
+  url: localhost/ppmp/testapi.php/logout
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "username":"admin",
+    "password":"dswd123caraga456"
+  }
+}

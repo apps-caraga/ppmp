@@ -1,0 +1,29 @@
+meta {
+  name: Save Data2
+  type: http
+  seq: 7
+}
+
+get {
+  url: localhost/ppmp/testapi.php/records/ppmp_items/1
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "ppmp_id":2,
+    "unspc_id":109,
+    "item_category":11,
+    "item_id":313,
+    "uom":24,
+    "jan_qty":1,
+    "feb_qty":1,
+    "mar_qty":1,
+    "apr_qty":1,
+    "may_qty":1,
+   
+    "item_price":150,
+    "proc_mode_id":1
+   }
+}

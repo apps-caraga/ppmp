@@ -1,0 +1,18 @@
+meta {
+  name: Register
+  type: http
+  seq: 1
+}
+
+post {
+  url: localhost/ppmp/testapi.php/register
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "username":"user",
+    "password":"dswd123caraga456"
+  }
+}
